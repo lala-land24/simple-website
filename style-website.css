@@ -1,0 +1,182 @@
+body{
+  margin: -25px 0px 0px 0px;
+  padding-bottom: 2000px;
+}
+
+.brown-background{
+  width: 1267px;
+  position: fixed;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 300px;
+}
+
+.header3{
+  background-color: lightblue;
+  display: inline-block;
+  position: fixed;
+  z-index: 300px;
+  margin-left: -480px;
+  margin-top: 20px;
+}
+
+.cat-icon{
+  width: 40px;
+  margin-top: 23px;
+  margin-left: 6px;
+  border-radius: 20px;  
+  cursor: pointer;
+}
+
+
+.home,
+.about,
+.menu{
+  color: white;
+  font-family: Cute Font;
+  font-size: 25px;
+  height: 30px;
+  margin-left: 50px;
+  margin-right: 20px;
+  border-right-width: 1px;
+  border-right-style: solid; 
+  border-right-color: white; 
+  padding-right: 10px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.home:hover, .about:hover, .menu:hover, .cat-icon{
+  background-color: gray;
+}
+
+.home:active, .about:active, .menu:active, .cat-icon{
+  color: gray;
+}
+.home{
+  margin-left: 100px;
+}
+
+.title{
+  padding-left: 400px;
+  padding-right: 363px;
+  display: block;
+  position: absolute;
+  margin-top: 120px;
+}
+.title-head{
+  width: 500px;
+  font-family: Cute Font;
+  font-size: 90px;
+  text-align: center;
+}
+
+.all1{
+  position: absolute;
+  z-index: 200px;
+}
+
+.all{
+  position: absolute;
+  z-index: 100px;
+  margin-top: 500px;
+  margin-left: 30px;
+ }
+ 
+
+.background{
+  width: 500px;
+  display: inline-block;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
+}
+.ragdoll{
+  width: 350px;
+  position: absolute;
+  margin-left: -430px;
+  margin-top: 80px;
+  display: inline-block;
+}
+
+.cat1{
+  font-family: Cute Font;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -85px;
+}
+
+.text,
+.text2,
+.text3,
+.text4{
+  display: inline-block;
+  position: absolute;
+  z-index: 100px;
+}
+
+.text{
+  width: 600px;
+  margin-top: 480px;
+  margin-left: 70px;
+}
+
+.text3{
+  margin-top: 1500px;
+}
+.text4{
+  margin-top: 1550px;
+  width: 700px;
+  margin-left: 50px;
+}
+.the{
+  font-family: Cute Font;
+  font-size: 40px;
+}
+
+.background1{
+  width: 500px;
+  display: inline-block;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
+  margin-top: 1030px;
+  margin-left: 200px;
+}
+
+.ragdoll1{
+  width: 310px;
+  height: 200px;
+  margin-top: -700px;
+  margin-bottom: 85px;
+  margin-left: 290px;
+}
+
+.cat2{
+  font-family: Cute Font;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -99px;
+}
+
+.cat3{
+  font-family: Cute Font;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -99px;
+  margin-left: 60px;
+  width: 800px;
+}
+
+.img4{
+  width: 200px;
+  margin-left: -200px;
+}
+
+.lahatan{
+  width: 2000px;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+}
